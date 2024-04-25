@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+      background-image: url('https://th.bing.com/th/id/R.552d60aca1000d531ecfd7a9eb493122?rik=Zql2DlSbiqE0mQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fdkSK3Dv.jpg&ehk=rWPnWeSlDvA02xfy3AkrUc7%2bHpVg5zBI6Xkn89rFOjo%3d&risl=&pid=ImgRaw&r=0');
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  body {
+     /* Light Blue */
+    color: #333;
+  
+  }
+  
+  .container {
+    background-color: white; /* White */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    width: 70px;
+  }
+  
+  .btn-primary {
+    background-color: #28a745; /* Green */
+    border-color: #28a745;
+  }
+  
+  .btn-primary:hover {
+    background-color: #218838; /* Darker Green */
+    border-color: #218838;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Red */
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333; /* Darker Red */
+    border-color: #c82333;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da; /* Light Red */
+    border-color: #f5c6cb; /* Lighter Red */
+    color: #721c24; /* Dark Red */
+  }
